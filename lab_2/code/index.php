@@ -73,4 +73,10 @@ $arrNum = 0;
 foreach ($arr as $item) {
     $arrNum += pow($item, 2);
 }
-$arrNum = sqrt($arrNum);
+echo "<br>";
+echo sqrt($arrNum);
+
+$sqrtNum = sqrt(379);
+echo "<br>", round($sqrtNum);
+echo "<br>", round($sqrtNum, 2);
+echo "<br>", round($sqrtNum, 3);
