@@ -23,4 +23,10 @@ echo "<br>";
 $num2 = 3.5;
 echo $num2;
 
+echo "<br>";
 echo $num1 + 2;
+
+echo "<br>";
+$last_month = 1187.23;
+$this_month = 1089.98;
+echo $last_month - $this_month;
