@@ -12,3 +12,4 @@ echo "\nYour order is: $very_bad_unclear_name.";
 
 $order = &$very_bad_unclear_name;
 $order .= " + 1 cola bottle";
+echo $very_bad_unclear_name;
