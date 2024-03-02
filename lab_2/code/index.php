@@ -38,3 +38,6 @@ $months = 11;
 $days = $months * 16;
 $days_per_language = $days / $num_language;
 echo $days_per_language;
+// task 12
+echo "<br>";
+echo 8 ** 2;
