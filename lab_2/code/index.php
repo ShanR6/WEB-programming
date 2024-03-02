@@ -50,3 +50,6 @@ $answer += 2;
 $answer *= 2;
 $answer -= 2;
 $answer /= 2;
+$answer -= $my_num;
+echo "<br>";
+echo $answer;
