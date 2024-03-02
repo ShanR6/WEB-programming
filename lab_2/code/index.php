@@ -53,3 +53,15 @@ $answer /= 2;
 $answer -= $my_num;
 echo "<br>";
 echo $answer;
+
+// task 14
+$a = 10;
+$b = 3;
+$c = $a % $b;
+
+echo "<br>";
+if ($c === 0) {
+    echo 'Делится: ', $a / $b;
+} else {
+    echo 'Делится с остатком: ', $c;
+}
