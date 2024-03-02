@@ -65,3 +65,12 @@ if ($c === 0) {
 } else {
     echo 'Делится с остатком: ', $c;
 }
+
+$st = pow(2, 10);
+$sqrt = sqrt(245);
+$arr = [4, 2, 5, 19, 13, 0, 10];
+$arrNum = 0;
+foreach ($arr as $item) {
+    $arrNum += pow($item, 2);
+}
+$arrNum = sqrt($arrNum);
