@@ -22,3 +22,5 @@ echo $num1;
 echo "<br>";
 $num2 = 3.5;
 echo $num2;
+
+echo $num1 + 2;
