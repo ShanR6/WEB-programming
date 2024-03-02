@@ -30,3 +30,8 @@ echo "<br>";
 $last_month = 1187.23;
 $this_month = 1089.98;
 echo $last_month - $this_month;
+
+// task 11
+$num_language = 4;
+$months = 11;
+$days = $months * 16;
