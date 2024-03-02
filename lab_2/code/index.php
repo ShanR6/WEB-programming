@@ -68,15 +68,19 @@ if ($c === 0) {
 
 $st = pow(2, 10);
 $sqrt = sqrt(245);
-$arr = [4, 2, 5, 19, 13, 0, 10];
+$arr1 = [4, 2, 5, 19, 13, 0, 10];
 $arrNum = 0;
-foreach ($arr as $item) {
+foreach ($arr1 as $item) {
     $arrNum += pow($item, 2);
 }
 echo "<br>";
 echo sqrt($arrNum);
 
-$sqrtNum = sqrt(379);
-echo "<br>", round($sqrtNum);
-echo "<br>", round($sqrtNum, 2);
-echo "<br>", round($sqrtNum, 3);
+$sqrtNum1 = sqrt(379);
+echo "<br>", round($sqrtNum1);
+echo "<br>", round($sqrtNum1, 2);
+echo "<br>", round($sqrtNum1, 3);
+
+$sqrtNum2 = sqrt(587);
+$arr2 = ['floor' => floor($sqrtNum2), 'ceil' => ceil($sqrtNum2)];
+
