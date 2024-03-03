@@ -166,3 +166,15 @@ function recursion(array $arr, int $index = 0)
 }
 
 recursion($arr);
+
+$number = 12345678;
+function numSum(int $num): int
+{
+    $sum = array_sum(str_split(strval($num)));
+    if ($sum > 9) {
+        return numSum($sum);
+    }
+    return $sum;
+}
+
+echo "<br>", numsum($number);
