@@ -123,9 +123,18 @@ for ($i = 0; $i < count($arr); $i++) {
 }
 
 // task 15
-function printStringReturnNumber() {
+function printStringReturnNumber() : int
+{
     echo "<br>", "php";
     return 123;
 }
+
 $my_num = printStringReturnNumber();
 echo "<br>", $my_num;
+
+// task 16
+function increaseEnthusiasm(string $str) : string
+{
+    return $str . '!';
+}
+echo "<br>", increaseEnthusiasm("It's second lab");
