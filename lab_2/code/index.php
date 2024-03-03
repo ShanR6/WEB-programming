@@ -123,7 +123,7 @@ for ($i = 0; $i < count($arr); $i++) {
 }
 
 // task 15
-function printStringReturnNumber() : int
+function printStringReturnNumber(): int
 {
     echo "<br>", "php";
     return 123;
@@ -133,17 +133,24 @@ $my_num = printStringReturnNumber();
 echo "<br>", $my_num;
 
 // task 16
-function increaseEnthusiasm(string $str) : string
+function increaseEnthusiasm(string $str): string
 {
     return $str . '!';
 }
+
 echo "<br>", increaseEnthusiasm("It's second lab");
 
-function repeatThreeTimes(string $str) : string
+function repeatThreeTimes(string $str): string
 {
     return str_repeat($str, 3);
 }
+
 echo "<br>", repeatThreeTimes('... --- ...');
 
 echo "<br>";
 echo increaseEnthusiasm(repeatThreeTimes('Yeah'));
+
+function cut(string $str, int $num = 10): string
+{
+    return mb_strcut($str, 0, $num);
+}
