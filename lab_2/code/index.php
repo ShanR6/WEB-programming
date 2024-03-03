@@ -226,3 +226,20 @@ $arr = ['a', 'b', 'c', 'd', 'e'];
 echo "<br>", count($arr);
 echo "<br>", end($arr);
 echo "<br>", prev($arr);
+
+// task 18
+function ifCheck1(int $num1, int $num2): bool
+{
+    if ($num1 + $num2 > 10) {
+        return true;
+    }
+    return false;
+}
+
+function ifCheck2 (int $num1, int $num2): bool
+{
+    if ($num1 === $num2) {
+        return true;
+    }
+    return false;
+}
