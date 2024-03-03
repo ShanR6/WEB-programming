@@ -178,3 +178,14 @@ function numSum(int $num): int
 }
 
 echo "<br>", numsum($number);
+
+//task 17
+$xArr = ['x', 'xx', 'xxx', 'xxxx', 'xxxxx'];
+
+$arr = [];
+function arrayFill(string $str, int $num): array
+{
+    return str_split(str_repeat($str, $num), strlen($str));
+}
+
+$newArr = arrayFill('x', 5);
