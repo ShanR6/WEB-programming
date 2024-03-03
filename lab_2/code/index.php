@@ -93,3 +93,13 @@ $randArr = [];
 for ($i = 0; $i < 10; $i++) {
     $randArr[] = rand(1, 100);
 }
+
+$a = 1;
+$b = 45;
+echo "<br>", abs($a - $b);
+
+$numArr = [1, 2, -1, -2, 3, -3];
+$newNumArr = [];
+foreach ($numArr as $item) {
+    $newNumArr = abs($item);
+}
