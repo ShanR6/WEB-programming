@@ -221,3 +221,8 @@ echo "<br>", $user['surname'] . ' ' . $user['name'] . ' ' . $user['patronymic'];
 
 $date = ['year' => '2024', 'month' => '03', 'day' => '03'];
 echo "<br>", $date['year'] . '-' . $date['month'] . '-' . $date['day'];
+
+$arr = ['a', 'b', 'c', 'd', 'e'];
+echo "<br>", count($arr);
+echo "<br>", end($arr);
+echo "<br>", prev($arr);
