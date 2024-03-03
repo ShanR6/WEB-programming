@@ -103,3 +103,11 @@ $newNumArr = [];
 foreach ($numArr as $item) {
     $newNumArr = abs($item);
 }
+
+$num = 30;
+$divideArr = [];
+for ($i = 1; $i <= $num; $i++) {
+    if ($num % $i === 0) {
+        $divideArr[] = $i;
+    }
+}
