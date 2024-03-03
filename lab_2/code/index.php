@@ -280,3 +280,6 @@ $arr = [4, 9, 81, 125];
 $arr = array_map('sqrt', $arr);
 
 $newArr = array_combine(range('a', 'z'), range(1, 26));
+
+$string = '1234567890';
+echo "<br>", array_sum(str_split($string, 2));
