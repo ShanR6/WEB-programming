@@ -111,3 +111,13 @@ for ($i = 1; $i <= $num; $i++) {
         $divideArr[] = $i;
     }
 }
+
+$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+$sum = 0;
+for ($i = 0; $i < count($arr); $i++) {
+    $sum += $arr[$i];
+    if ($sum > 10) {
+        echo "<br>", $i + 1;
+        break;
+    }
+}
