@@ -264,3 +264,8 @@ $arr = [1, 5, 12];
 if (count($arr) === 3) {
     echo "<br>", array_sum($arr);
 }
+
+// task 19
+for ($i = 1; $i <= 20; $i++) {
+    echo "<br>", str_repeat('x', $i);
+}
