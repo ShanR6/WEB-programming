@@ -154,3 +154,15 @@ function cut(string $str, int $num = 10): string
 {
     return mb_strcut($str, 0, $num);
 }
+
+$arr = [1, 2, 3, 4, 5, 6, 7];
+echo "<br>";
+function recursion(array $arr, int $index = 0)
+{
+    if ($index < count($arr)) {
+        echo $arr[$index];
+        recursion($arr, $index + 1);
+    }
+}
+
+recursion($arr);
