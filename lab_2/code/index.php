@@ -275,3 +275,6 @@ $arr = [1, 2, 10, -3, 5, 11, 12, 1];
 echo "<br>", array_sum($arr) / count($arr);
 
 echo "<br>", array_sum(range(1, 100));
+
+$arr = [4, 9, 81, 125];
+$arr = array_map('sqrt', $arr);
