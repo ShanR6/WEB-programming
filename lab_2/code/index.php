@@ -189,3 +189,24 @@ function arrayFill(string $str, int $num): array
 }
 
 $newArr = arrayFill('x', 5);
+
+$arr = [
+    [1, 2, 3],
+    [4, 5],
+    [6]
+];
+$sum = 0;
+foreach ($arr as $item1) {
+    foreach ($item1 as $item2) {
+        $sum += $item2;
+    }
+}
+echo "<br>", $sum;
+
+$newArr = [];
+$value = 1;
+for ($i = 0; $i < 3; $i++) {
+    for ($j = 0; $j < 3; $j++) {
+        $newArr[$i][$j] = $value++;
+    }
+}
