@@ -144,3 +144,6 @@ function repeatThreeTimes(string $str) : string
     return str_repeat($str, 3);
 }
 echo "<br>", repeatThreeTimes('... --- ...');
+
+echo "<br>";
+echo increaseEnthusiasm(repeatThreeTimes('Yeah'));
