@@ -121,3 +121,11 @@ for ($i = 0; $i < count($arr); $i++) {
         break;
     }
 }
+
+// task 15
+function printStringReturnNumber() {
+    echo "<br>", "php";
+    return 123;
+}
+$my_num = printStringReturnNumber();
+echo "<br>", $my_num;
