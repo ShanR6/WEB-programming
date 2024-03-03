@@ -236,10 +236,15 @@ function ifCheck1(int $num1, int $num2): bool
     return false;
 }
 
-function ifCheck2 (int $num1, int $num2): bool
+function ifCheck2(int $num1, int $num2): bool
 {
     if ($num1 === $num2) {
         return true;
     }
     return false;
 }
+
+$test = 11;
+echo "<br>";
+echo $test == 0 ? 'верно' : 'неверно';
+
