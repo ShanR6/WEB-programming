@@ -84,3 +84,6 @@ echo "<br>", round($sqrtNum1, 3);
 $sqrtNum2 = sqrt(587);
 $arr2 = ['floor' => floor($sqrtNum2), 'ceil' => ceil($sqrtNum2)];
 
+$numArr = [4, -2, 5, 19, -130, 0, 10];
+echo "<br>", min($numArr);
+echo "<br>", max($numArr);
