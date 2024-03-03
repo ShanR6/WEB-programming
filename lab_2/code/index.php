@@ -274,3 +274,4 @@ for ($i = 1; $i <= 20; $i++) {
 $arr = [1, 2, 10, -3, 5, 11, 12, 1];
 echo "<br>", array_sum($arr) / count($arr);
 
+echo "<br>", array_sum(range(1, 100));
