@@ -259,3 +259,8 @@ if ($age < 10 || $age > 99) {
         echo "<br>", 'two-digit sum';
     }
 }
+
+$arr = [1, 5, 12];
+if (count($arr) === 3) {
+    echo "<br>", array_sum($arr);
+}
