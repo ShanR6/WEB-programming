@@ -210,3 +210,14 @@ for ($i = 0; $i < 3; $i++) {
         $newArr[$i][$j] = $value++;
     }
 }
+
+$arr = [2, 5, 3, 9];
+$result = $arr[0] * $arr[1] + $arr[2] * $arr[3];
+echo "<br>", $result;
+
+
+$user = ['name' => 'Alex', 'surname' => 'Andreev', 'patronymic' => 'Sergeevich'];
+echo "<br>", $user['surname'] . ' ' . $user['name'] . ' ' . $user['patronymic'];
+
+$date = ['year' => '2024', 'month' => '03', 'day' => '03'];
+echo "<br>", $date['year'] . '-' . $date['month'] . '-' . $date['day'];
