@@ -87,3 +87,9 @@ $arr2 = ['floor' => floor($sqrtNum2), 'ceil' => ceil($sqrtNum2)];
 $numArr = [4, -2, 5, 19, -130, 0, 10];
 echo "<br>", min($numArr);
 echo "<br>", max($numArr);
+
+echo "<br>", rand(1, 100);
+$randArr = [];
+for ($i = 0; $i < 10; $i++) {
+    $randArr[] = rand(1, 100);
+}
