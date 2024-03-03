@@ -248,3 +248,14 @@ $test = 11;
 echo "<br>";
 echo $test == 0 ? 'верно' : 'неверно';
 
+$age = 56;
+if ($age < 10 || $age > 99) {
+    echo "<br>", 'Number < 10 or > 99';
+} else {
+    $sum = array_sum(str_split(strval($age)));
+    if ($sum <= 9) {
+        echo "<br>", 'single-digit sum';
+    } else {
+        echo "<br>", 'two-digit sum';
+    }
+}
