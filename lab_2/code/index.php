@@ -278,3 +278,5 @@ echo "<br>", array_sum(range(1, 100));
 
 $arr = [4, 9, 81, 125];
 $arr = array_map('sqrt', $arr);
+
+$newArr = array_combine(range('a', 'z'), range(1, 26));
