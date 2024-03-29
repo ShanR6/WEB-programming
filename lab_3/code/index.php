@@ -26,3 +26,16 @@ if(isset($_POST['submit'])){
     echo "Symbols count: $charCount";
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+</head>
+<body>
+<form method="post">
+    <textarea name="text"></textarea><br>
+    <input type="submit" name="submit" value="Count">
+</form>
+</body>
+</html>
