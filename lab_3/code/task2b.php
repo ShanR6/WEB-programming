@@ -33,7 +33,7 @@ if (isset($_SESSION['surname'], $_SESSION['name'], $_SESSION['age'])) {
 <body>
 <form method="post">
     Surname:
-    <input type="text" id="surname" name="surname"><br>
+    <input type="text" name="surname"><br>
 
     Name:
     <input type="text" name="name"><br>
