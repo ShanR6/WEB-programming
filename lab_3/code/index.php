@@ -16,3 +16,13 @@ foreach ($matches[0] as $num) {
 }
 echo $str;
 echo '<br />';
+
+// task 2a
+if(isset($_POST['submit'])){
+    $text = $_POST['text'];
+    $wordCount = str_word_count($text);
+    $charCount = strlen($text);
+    echo "Words count: $wordCount<br>";
+    echo "Symbols count: $charCount";
+}
+?>
