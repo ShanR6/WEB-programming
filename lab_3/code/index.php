@@ -40,7 +40,7 @@
                 <th>Title</th>
                 <th>Description</th>
             </thead>
-            <tboby>
+            <tbody>
                 <?php
                 $files = glob("categories/*/*.txt");
                 foreach ($files as $file) {
